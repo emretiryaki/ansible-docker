@@ -1,0 +1,6 @@
+---
+#This playbook would deploy docker that you want version
+
+- hosts: docker_servers
+  roles: 
+    - role: docker
